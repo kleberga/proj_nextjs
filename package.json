@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.7",
     "firebase": "^11.1.0",
     "gray-matter": "^4.0.3",
     "next": "15.1.2",
