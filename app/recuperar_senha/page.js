@@ -40,7 +40,7 @@ export default function Entrar() {
           <PrivateRoute>
             {alertVisible && <CustomAlert message="Foi enviado um e-mail para resetar a senha." onClose={handleCloseAlert} />}
             <Formulario_Recuperar 
-              titulo={"Efetue login:"} 
+              titulo={"Recuperar a senha:"} 
               funcaoHandle={handleChange} 
               funcaoSubmit={handleSubmit} 
               mensagemErro={errors} 
