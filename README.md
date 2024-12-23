@@ -1,6 +1,6 @@
 ## Aplicação web de notícias de economia
 
-Trata-se de um aplicativo web sobre notícias de economia. O aplicativo apresenta as seguintes características:
+Trata-se de um aplicativo web sobre notícias de economia com as seguintes características:
 - o aplicativo está em produção no site https://noticiaseconomia.vercel.app/;
 - para consultar as notícias, o usuário deve se registrar e/ou efetuar login;
 - o usuário pode inserir comentários no final de cada notícia;
