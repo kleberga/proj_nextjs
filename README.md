@@ -5,7 +5,7 @@ Trata-se de um aplicativo web sobre notícias de economia com as seguintes carac
 - para consultar as notícias, o usuário deve se registrar e/ou efetuar login;
 - o usuário pode inserir comentários no final de cada notícia;
 - o usuário pode alterar ou excluir os seus comentários; e
-- existe uma página de contato para o usuário enviar dúvida, críticas ou sugestões.
+- existe uma página de contato para o usuário enviar dúvidas, críticas ou sugestões.
 
 Do ponto de vista técnico, o aplicativo possui as seguintes características:
 - foi desenvolvido utilizando o framework NextJS;
