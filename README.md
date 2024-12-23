@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Aplicação web de notícias de economia
 
-## Getting Started
+Trata-se de um aplicativo web sobre notícias de economia. O aplicativo apresenta as seguintes características:
+- o aplicativo está em produção no site https://noticiaseconomia.vercel.app/;
+- para consultar as notícias, o usuário deve se registrar e/ou efetuar login;
+- o usuário pode inserir comentários no final de cada notícia;
+- o usuário pode alterar ou excluir os seus comentários; e
+- existe uma página de contato para o usuário enviar dúvida, críticas ou sugestões.
 
-First, run the development server:
+Do ponto de vista técnico, o aplicativo possui as seguintes características:
+- foi desenvolvido utilizando o framework NextJS;
+- a estilização dos componentes foi realizada por meio da biblioteca Tailwind CSS;
+- o sistema de registro e login utiliza o recurso Authentication do Google Firebase. O nome do usuário é salvo no banco de dados Firestore do Google Firebase;
+- os comentários dos usuários ao final de cada notícia e os dados enviados na tela de contato são salvos no banco de dados Firestore do Google Firebase;
+- os campos de login, registro, recuperar senha e contato possuem validação;
+- a tela Home, que contém a lista das notícias, possui paginação para mostrar no máximo 10 notícias por página;
+- as notícias são salvas em arquivos markdown e carregadas automaticamente pela aplicação; e
+- as rotas referentes à tela Home, às notícias individuais e à tela de Contato são protegidas e só podem ser acessadas por usuários autenticados.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+As telas a seguir apresentação a aplicação em produção:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Página de login
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![Página Login](login.PNG)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Página de registro
 
-## Learn More
+![Página Registro](registro.PNG)
 
-To learn more about Next.js, take a look at the following resources:
+3. Página de recuperar senha
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Página Recuperar Senha](recuperar_senha.PNG)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Página Home
 
-## Deploy on Vercel
+![Página Home](home.PNG)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Página contendo uma notícia
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Página Notícias](noticia.PNG)
+
+6. Componente para inserir comentários ao final de cada notícia
+
+![Componente comentário](comentario.PNG)
+
+7. Página Sobre Nós
+
+![Página Sobre Nós](sobre_nos.PNG)
+
+8. Página Contato
+
+![Página Contato](contato.PNG)
+
+9. Página Política de Privacidade
+
+![Página Política de Privacidade](politica_privacidade.PNG)
+
+10. Página Política de Comentários
+
+![Página Política de Comentários](politica_comentarios.PNG)
