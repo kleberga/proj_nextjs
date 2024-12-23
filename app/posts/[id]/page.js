@@ -6,7 +6,7 @@ import ClientComponent from './ClientComponent';
 
 export default async function Post({ params }) {
   const { id } = await params;
-  const postData = getPostData(id);
+  const postData = await getPostData(id);
 
   return (
     <PrivateRoute>
