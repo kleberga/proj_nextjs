@@ -10,6 +10,7 @@ import { signOut } from "firebase/auth";
 import { auth } from '../infra/firebase'
 import { useRouter } from 'next/navigation';
 
+
 export default function Layout({children}) {
 
     const [isOpen, setIsOpen] = useState(false);

@@ -46,3 +46,30 @@ img {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.pagination {
+  list-style: none;
+  height: 31.5px;
+  width: 31.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #859F3D;
+  border-radius: 50%;
+}
+
+.page-item {
+  list-style: none;
+  padding: 2px 12px;
+  height: 31.5px;
+  width: 31.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
