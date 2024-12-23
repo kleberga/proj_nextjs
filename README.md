@@ -17,7 +17,7 @@ Do ponto de vista técnico, o aplicativo possui as seguintes características:
 - as notícias são salvas em arquivos markdown e carregadas automaticamente pela aplicação; e
 - as rotas referentes à tela Home, às notícias individuais e à tela de Contato são protegidas e só podem ser acessadas por usuários autenticados.
 
-As telas a seguir apresentação a aplicação em produção:
+As telas a seguir exibem a aplicação em produção:
 
 1. Página de login
 
